@@ -1,0 +1,53 @@
+this is debug
+this is info of logging
+this is warning
+this is error
+this is critical
+10
+22
+10
+22
+this is debug
+this is info of logging
+this is warning
+this is error
+this is critical
+this is debug
+this is info of logging
+this is warning
+this is error
+this is critical
+this is debug
+this is info of logging
+this is warning
+this is error
+this is critical
+this is debug
+this is info of logging
+this is warning
+this is error
+this is critical
+this is debug
+this is info of logging
+this is warning
+this is error
+this is critical
+this is debug
+this is info of logging
+this is warning
+this is error
+this is critical
+30
+-10
+200
+0.5
+this is debug
+this is info of logging
+this is warning
+this is error
+this is critical
+30
+-10
+200
+0.5
+30

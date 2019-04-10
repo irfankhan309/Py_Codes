@@ -1,0 +1,9 @@
+import smtplib
+
+emailsession = smtplib.SMTP(host='smtp.gmail.com', port=587)
+
+
+emailsession.starttls()
+emailsession.login('learningpython009@gmail.com','scada309')
+emailsession.sendmail('learningpython009@gmail.com','learningpython009@gmail.com','testing')
+emailsession.quit()    

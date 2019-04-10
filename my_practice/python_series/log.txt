@@ -1,0 +1,14 @@
+INFO:root:a ne request came
+INFO:root:a ne request came
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\IRFAN\Desktop\my_practice\access_member_in_other_class.py", line 8, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+INFO:root:a ne request came
+INFO:root:a ne request came
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\IRFAN\Desktop\my_practice\access_member_in_other_class.py", line 8, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero

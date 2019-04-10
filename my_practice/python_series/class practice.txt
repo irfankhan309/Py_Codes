@@ -1,0 +1,92 @@
+vehicle=int(input("enter the vehicle number:"))
+if vehicle==9090:
+    print()
+    print("here details of voter id atteched to vehicle and your vehicle details also shown!")
+else:
+    print("sorry your vehicle number is not correct")
+    print()
+
+class vehicle:
+    '''hai sir! this is i have practiced for inheritance also where  i have called
+other class here in this file & as  i am giving one vehicle number i can get some information
+about owner of vehicle as well as from voterID details'''
+    
+    def __init__(self,vname,vno,vprice,rta,v_validity):
+        self.vname=vname
+        self.vno=vno
+        self.vprice=vprice
+        self.rta=rta
+        self.v_validity=v_validity
+    def vchart(self):
+        print("the vehicle is:", self.vname)
+        print("the vehicle no is:", self.vno)
+        print("the vprice is:", self.vprice)
+        print("the rta area is:",self.rta)
+        print("the vehicle validity is:",self.v_validity)
+print('*'*93)
+print(vehicle.__doc__)
+print('*'*93)
+print("buyer details is here")
+
+class owner:
+    def __init__(self,oName,oNum,oAddress,ownverified):
+        self.oName=oName
+        self.oNum=oNum
+        self.oAddress=oAddress
+        self.ownverified=ownverified
+
+    def buyer(self):
+        print("the owner name is:",self.oName)
+        print("the owner number is:",self.oNum)
+        print("the owner address is:",self.oAddress)
+        print("is owner details verfied:",self.ownverified)
+        print()
+    print("your details are verified")
+
+
+
+
+class voterID:
+    def __init__(self,v_name,v_age,v_id_num,v_add):
+        self.v_name = v_name
+        self.v_age = v_age
+        self.v_id_num = v_id_num
+        self.v_add = v_add
+
+    def voter(self):
+        print("welcome to voter's list and here your details")
+        print()
+        print("the voter name is:",self.v_name)
+        print("the voter age is:", self.v_age)
+        print("the voter Id number:",self.v_id_num)
+        print("the voter address:", self.v_add)
+
+
+            
+print("*"*93)
+elections=voterID('RANGA RAJAN',49,'VOT90090908','D.NO.24-88/32/2')
+elections.voter()
+
+print("*"*93)
+seller=owner('irfan',8008469093,'24-88/32/1','yes verified')
+seller.buyer()
+
+print("*"*93)
+
+veh=vehicle('tata',9090,'90999/-','kphp','AUG-28-2018')
+veh.vchart()
+
+print("*"*93)
+
+elections=voterID('sanjay',54,'vot3344324','d.no.34/343')
+elections.voter()
+
+print("*"*93)
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+this is some text
+for example python file concept
+and counting lines words and characters

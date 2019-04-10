@@ -1,0 +1,6 @@
+2018-10-13 19:01:02,202 - sample - ERROR - this is error
+2018-10-13 19:01:02,202 - sample - WARNING - this is warning
+2018-10-13 19:01:02,203 - sample - CRITICAL - this is critical
+this is error
+this is warning
+this is critical
